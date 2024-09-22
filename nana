@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boid Memes Gallery</title>
+    <style>
+        body {
+            background-color: #f9f9f9;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 3em;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .gallery-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-gap: 20px;
+            padding: 20px;
+        }
+        .gallery-box {
+            background-color: #007bff;
+            padding: 15px;
+            border-radius: 15px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        .gallery-box img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        .gallery-box p {
+            color: white;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        .gallery-box:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+
+    <h1><strong>Boid Memes Gallery</strong></h1>
+
+    <div class="gallery-container">
+        <div class="gallery-box">
+            <img src="https://i.pinimg.com/564x/02/78/15/0278157381b3d912391f4f1a4b7e9f10.jpg" alt="Boid Meme 1">
+            <p><strong>¡Meme 1!</strong></p>
+        </div>
+        <div class="gallery-box">
+            <img src="https://i.pinimg.com/564x/80/f4/99/80f499768daeda53729f2184f1f302d6.jpg" alt="Boid Meme 2">
+            <p><strong>¡Meme 2!</strong></p>
+        </div>
+        <div class="gallery-box">
+            <img src="https://i.pinimg.com/564x/3e/35/b2/3e35b22432bb77f52b67b2eaf78048a2.jpg" alt="Boid Meme 3">
+            <p><strong>¡Meme 3!</strong></p>
+        </div>
+        <div class="gallery-box">
+            <img src="https://i.pinimg.com/564x/1c/7f/84/1c7f8491b15095a1db027f97bc8ac24d.jpg" alt="Boid Meme 4">
+            <p><strong>¡Meme 4!</strong></p>
+        </div>
+        <div class="gallery-box">
+            <img src="https://i.pinimg.com/564x/27/f8/66/27f8665e56e4fdfe99f25e7ac45040a5.jpg" alt="Boid Meme 5">
+            <p><strong>¡Meme 5!</strong></p>
+        </div>
+    </div>
+
+</body>
+</html>
