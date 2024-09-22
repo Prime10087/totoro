@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shitpost Video Gallery</title>
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        h1 {
+            font-size: 3em;
+            color: #333;
+            margin-top: 20px;
+        }
+        .video-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .video-box {
+            background-color: #007bff;
+            padding: 20px;
+            margin: 15px;
+            border-radius: 15px;
+            width: 320px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .video-box video {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        button {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #28a745;
+            color: white;
+            font-size: 1.2em;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+
+    <h1><strong>Random Shitpost Video Memes</strong></h1>
+
+    <div class="video-container">
+        <div class="video-box">
+            <video controls>
+                <source src="ENLACE_DEL_VIDEO_1" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p><strong>¡Meme 1!</strong></p>
+        </div>
+        <div class="video-box">
+            <video controls>
+                <source src="ENLACE_DEL_VIDEO_2" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p><strong>¡Meme 2!</strong></p>
+        </div>
+        <div class="video-box">
+            <video controls>
+                <source src="ENLACE_DEL_VIDEO_3" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p><strong>¡Meme 3!</strong></p>
+        </div>
+    </div>
+
+    <button onclick="playGemidao()">¡CLICK AQUÍ PARA UNA SORPRESA!</button>
+
+    <script>
+        function playGemidao() {
+            window.open("https://www.youtube.com/watch?v=O91DT1pR1ew", "_blank");
+        }
+    </script>
+    
+</body>
+</html>
